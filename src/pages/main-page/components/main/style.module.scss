@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  .center {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+
+    img {
+      width: 520px;
+      height: 520px;
+    }
+
+    button {
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      font-weight: 700;
+      padding: 10px;
+      border: 2px solid rgb(196, 196, 196);
+      background-color: black;
+      width: 240px;
+      height: 80px;
+      transition: all 275ms ease;
+      cursor: pointer;
+
+      &:hover {
+        border: 2px solid rgb(99, 69, 181);
+      }
+    }
+  }
+
+  .social {
+    position: absolute;
+    left: 1880px;
+    top: 486px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+
+    img {
+      width: 25.6px;
+      height: 25.6px;
+    }
+  }
+}

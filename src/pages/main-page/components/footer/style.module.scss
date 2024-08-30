@@ -1,0 +1,77 @@
+.container {
+  margin-inline: auto;
+  margin-top: 140px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  width: 1640px;
+  height: 244px;
+  border-top: 1px solid rgb(196, 196, 196);
+
+  .container2 {
+    width: 1062px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .link {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      height: 30px;
+      justify-content: center;
+
+      a {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 400;
+        transition: all 275ms ease;
+
+        &:hover {
+          border-bottom: 4px solid rgb(99, 69, 181);
+          border-radius: 2px;
+        }
+      }
+    }
+    .telephone {
+      margin-top: 35px;
+      width: 321px;
+      height: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 17.6px;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 400;
+      }
+
+      img {
+        width: 19.2px;
+        height: 19.2px;
+      }
+    }
+  }
+  .payment {
+    width: 146px;
+    height: 34px;
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+
+    & > img {
+      width: 60px;
+      height: 30px;
+    }
+
+    img {
+      width: 56px;
+      height: 34px;
+    }
+  }
+}
