@@ -13,11 +13,11 @@
     flex-direction: row;
     gap: 48px;
 
-    a {
+    a,
+    Link {
       color: rgb(255, 255, 255);
       font-size: 20px;
       font-weight: 400;
-      transition: all 275ms ease;
 
       &:hover {
         border-bottom: 3px solid rgb(99, 69, 181);
@@ -46,7 +46,6 @@
       color: rgb(255, 255, 255);
       font-size: 20px;
       font-weight: 400;
-      transition: all 275ms ease;
 
       &:hover {
         border-bottom: 3px solid rgb(99, 69, 181);
@@ -77,8 +76,8 @@
     transition: all 275ms ease;
 
     &:hover {
-      width: 44px;
-      height: 44px;
+      width: 40px;
+      height: 40px;
       rotate: 15deg;
     }
   }

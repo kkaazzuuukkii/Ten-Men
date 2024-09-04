@@ -1,11 +1,11 @@
 import React from "react";
 import style from "./style.module.scss";
 
-import social1 from "../../../../assets/main/svg/right social1.svg";
-import social2 from "../../../../assets/main/svg/right social2.svg";
-import social3 from "../../../../assets/main/svg/right social3.svg";
-import visa from "../../../../assets/main/svg/Visa.svg";
-import mastercard from "../../../../assets/main/svg/Mastercard.svg";
+import social1 from "../../assets/svg/right social1.svg";
+import social2 from "../../assets/svg/right social2.svg";
+import social3 from "../../assets/svg/right social3.svg";
+import visa from "../../assets/svg/Visa.svg";
+import mastercard from "../../assets/svg/Mastercard.svg";
 
 export default function Footer() {
   return (

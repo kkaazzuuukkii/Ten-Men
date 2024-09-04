@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style.module.scss";
 
-import beer from "../../../../assets/main/beer.png";
+import beer from "../../assets/png/beer.png";
 
 export default function Main() {
   return (

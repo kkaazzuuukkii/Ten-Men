@@ -1,13 +1,18 @@
 import React from "react";
 import style from "./style.module.scss";
-import Mainpage from "./pages/main-page/index.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
+
+import Main from "./pages/main";
+import Beer from "./pages/beer";
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Mainpage />
+      <Routes>
+        <Route element={<Main />} path=''></Route>
+        <Route element={<Beer />} path='/beer'></Route>
+      </Routes>
     </BrowserRouter>
   );
 }
