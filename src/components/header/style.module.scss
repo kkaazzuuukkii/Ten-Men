@@ -7,17 +7,18 @@
   border-bottom: 1px solid rgb(196, 196, 196);
 
   .left_container {
-    height: 30px;
-    justify-content: center;
     display: flex;
     flex-direction: row;
+    text-align: center;
     gap: 48px;
+    height: 30px;
+    justify-content: center;
 
-    a,
-    Link {
+    a {
       color: rgb(255, 255, 255);
       font-size: 20px;
       font-weight: 400;
+      padding: 3px;
 
       &:hover {
         border-bottom: 3px solid rgb(99, 69, 181);
@@ -30,6 +31,7 @@
     width: 167px;
     height: 68px;
     align-items: center;
+    align-items: center;
     display: flex;
     justify-content: center;
     margin-inline: 60px;
@@ -38,6 +40,7 @@
   .right_container {
     display: flex;
     flex-direction: row;
+    text-align: center;
     gap: 48px;
     height: 30px;
     justify-content: center;
@@ -46,6 +49,7 @@
       color: rgb(255, 255, 255);
       font-size: 20px;
       font-weight: 400;
+      padding: 3px;
 
       &:hover {
         border-bottom: 3px solid rgb(99, 69, 181);
@@ -61,14 +65,31 @@
     margin-inline: 34px;
     gap: 7px;
     cursor: pointer;
+    height: 30px;
+    position: relative;
 
     p {
       color: rgb(255, 255, 255);
       font-size: 20px;
       font-weight: 500;
     }
-  }
+    .language_cont {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 7px;
+    }
 
+    .lang {
+      margin-top: 6px;
+      position: absolute;
+      top: 100%;
+    }
+
+    .lang_no {
+      display: none;
+    }
+  }
   .shop {
     cursor: pointer;
     width: 40px;

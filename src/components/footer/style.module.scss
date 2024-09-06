@@ -13,14 +13,16 @@
     margin-top: 60px;
     display: flex;
     flex-direction: column;
+    gap: 35px;
     align-items: center;
 
     .link {
+      height: 28px;
       display: flex;
       flex-direction: row;
       gap: 30px;
-      height: 30px;
       justify-content: center;
+      flex-shrink: 0;
 
       a {
         color: rgb(255, 255, 255);
@@ -34,31 +36,42 @@
       }
     }
     .telephone {
-      margin-top: 35px;
-      width: 321px;
-      height: 10px;
+      width: 326px;
+      height: 900px;
       display: flex;
       flex-direction: row;
       gap: 17.6px;
       align-items: center;
       justify-content: center;
 
-      a {
+      .phone {
         color: rgb(255, 255, 255);
         font-size: 20px;
         font-weight: 400;
+        width: 185px;
       }
 
-      img {
-        width: 19.2px;
-        height: 19.2px;
+      a {
+        width: 20.9px;
+        display: flex;
+        align-items: center;
+        img {
+          width: 19.2px;
+          height: 19.2px;
+          transition: all 275ms ease;
+
+          &:hover {
+            width: 20.9px;
+            height: 20.9px;
+            rotate: 10deg;
+          }
+        }
       }
     }
   }
   .payment {
     width: 146px;
     height: 34px;
-    margin-top: 50px;
     display: flex;
     gap: 30px;
     flex-direction: row;

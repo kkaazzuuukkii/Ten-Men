@@ -1,0 +1,70 @@
+a {
+  text-decoration: none;
+  color: white;
+
+  &:visited {
+    color: none;
+  }
+}
+
+.container {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .souvenir_list {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .border {
+      border: 1px solid rgb(196, 196, 196);
+      width: 395px;
+      height: 580px;
+    }
+    .cont {
+      margin: 27px 25px 33px;
+
+      img {
+        width: 343px;
+        height: 343px;
+      }
+
+      .about {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+        .name {
+          font-size: 20px;
+          color: white;
+          margin-bottom: 14px;
+        }
+
+        .size {
+          color: white;
+          float: right;
+          margin-bottom: 21px;
+        }
+
+        .buy {
+          margin-top: 26px;
+
+          img {
+            float: right;
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+}

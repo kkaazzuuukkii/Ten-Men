@@ -1,0 +1,168 @@
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+
+  .beer {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .beers_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-inline: auto;
+
+    .upbeer,
+    .middlebeer {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+
+      .beer_border {
+        width: 395px;
+        height: 620px;
+        border: 1px solid rgb(196, 196, 196);
+
+        .beer_container {
+          width: 360px;
+          height: 552px;
+          margin: 34px 18px 34px 18px;
+
+          img {
+            width: 360px;
+            height: 360px;
+          }
+
+          .text_container {
+            margin-top: 0px;
+            width: 345px;
+            height: 172px;
+            text-wrap: nowrap;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+
+            .h1_beer {
+              margin-top: 24px;
+              color: rgb(255, 255, 255);
+              font-size: 23px;
+              font-weight: 700;
+              text-wrap: wrap;
+            }
+
+            .about_beer {
+              margin-top: 3px;
+              width: 345px;
+              height: 54px;
+              display: flex;
+              flex-direction: row;
+              gap: 58px;
+
+              .option {
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                font-weight: 500;
+              }
+
+              .about_beeer {
+                width: 240px;
+                height: 54px;
+                display: flex;
+                flex-direction: column;
+
+                .about_beer_up {
+                  color: rgba(193, 225, 255, 0.65);
+                  font-size: 16px;
+                  font-weight: 400;
+                }
+
+                .about_beer_down {
+                  display: flex;
+                  flex-direction: row;
+                  width: 71px;
+                  height: 24px;
+                  color: rgb(193, 225, 255, 0.65);
+                  font-size: 16px;
+                  font-weight: 400;
+                }
+              }
+            }
+
+            .beer_price {
+              width: 342px;
+              height: 40px;
+              display: flex;
+              flex-direction: row;
+              gap: 189px;
+              align-items: center;
+
+              & P {
+                color: rgb(255, 255, 255);
+                font-size: 32px;
+                font-weight: 400;
+              }
+
+              .buy {
+                width: 36px;
+                height: 27.74px;
+                transition: all 275ms ease;
+                cursor: pointer;
+
+                &:hover {
+                  width: 37px;
+                  height: 37px;
+                  rotate: 15deg;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .beers_change {
+    margin-top: 10px;
+    width: 180px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .act_change {
+      border: 1px solid rgb(41, 41, 41);
+      width: 80px;
+      height: 80px;
+      color: rgb(41, 41, 41);
+      font-size: 32px;
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .unact_change {
+      border: 1px solid rgb(196, 196, 196);
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      font-size: 32px;
+      font-weight: 400;
+      cursor: pointer;
+      transition: all 275ms ease;
+
+      &:hover {
+        border: 1px solid rgb(156, 156, 156);
+        color: rgb(156, 156, 156);
+      }
+    }
+  }
+}

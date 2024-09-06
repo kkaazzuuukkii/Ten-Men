@@ -101,10 +101,12 @@ export default function Beerpage() {
           {beer1.map((v, i) => (
             <div key={i} className={style.beer_border}>
               <div className={style.beer_container}>
-                <img src={v.img} />
+                <a href=''>
+                  <img src={v.img} />
+                </a>
                 <div className={style.text_container}>
                   <div className={style.h1_beer}>
-                    <p>{v.name}</p>
+                    <a href=''>{v.name}</a>
                   </div>
 
                   <div className={style.about_beer}>
@@ -137,10 +139,12 @@ export default function Beerpage() {
             {beer2.map((v, i) => (
               <div key={i} className={style.beer_border}>
                 <div className={style.beer_container}>
-                  <img src={v.img} />
+                  <a href=''>
+                    <img src={v.img} />
+                  </a>
                   <div className={style.text_container}>
                     <div className={style.h1_beer}>
-                      <p>{v.name}</p>
+                      <a href=''>{v.name}</a>
                     </div>
 
                     <div className={style.about_beer}>
