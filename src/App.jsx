@@ -7,6 +7,7 @@ import Main from "./pages/main";
 import Beer from "./pages/beer";
 import Beer2 from "./pages/beer2";
 import Souvenir from "./pages/souvenirs";
+import Notfound from "./pages/page404";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route element={<Beer />} path='/beer'></Route>
         <Route element={<Beer2 />} path='/beer2'></Route>
         <Route element={<Souvenir />} path='/souvenirs'></Route>
+        <Route element={<Notfound />} path='/*'></Route>
       </Routes>
     </BrowserRouter>
   );

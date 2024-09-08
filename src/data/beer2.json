@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Tomato and Pepper",
+    "img": "https://i.imgur.com/KX2daH7.png",
+    "option1": "Sore Fruited Gose",
+    "alc": "ALC. 4%",
+    "og": "OG: 12,5%",
+    "ibu": "IBU:12",
+    "price": "116 UAN"
+  },
+  {
+    "name": "Lingonberry and Orange",
+    "img": "https://i.imgur.com/z8XpoO8.png",
+    "option1": "Sore Fruited Gose",
+    "alc": "ALC. 4.6%",
+    "og": "OG: 16%",
+    "ibu": "IBU:12",
+    "price": "116 UAN"
+  },
+  {
+    "name": "Raspberry and White chocolate",
+    "img": "https://i.imgur.com/YxHEeRX.png",
+    "option1": "Sore Fruited Gose",
+    "alc": "ALC. 4.6%",
+    "og": "OG: 16%",
+    "ibu": "IBU:12",
+    "price": "124 UAN"
+  },
+  {
+    "name": "Hazelnut edition",
+    "img": "https://i.imgur.com/kngrygg.png",
+    "option1": "Brown Porter",
+    "alc": "ALC. 5.7%",
+    "og": "OG: 16.5%",
+    "ibu": "IBU:25",
+    "price": "110 UAN"
+  },
+  {
+    "name": "TEN MEN IPA",
+    "img": "https://i.imgur.com/KX2daH7.png",
+    "option1": "IPA WEST COAST",
+    "alc": "ALC. 6%",
+    "og": "OG: 15%",
+    "ibu": "IBU:50",
+    "price": "109 UAN"
+  },
+  {
+    "name": "Black currant Cheesecake",
+    "img": "https://i.imgur.com/dQ1Ekp5.png",
+    "option1": "Pastry Sour Fruited",
+    "alc": "ALC. 4%",
+    "og": "OG: 16,5%",
+    "ibu": "IBU:12",
+    "price": "109 UAN"
+  },
+  {
+    "name": "DRIVE&DIVE",
+    "img": "https://i.imgur.com/xgNRwi8.png",
+    "option1": "IPA East Coast",
+    "alc": "ALC. 5.2%",
+    "og": "OG: 5%",
+    "ibu": "IBU:0",
+    "price": "109 UAN"
+  },
+  {
+    "name": "MOLOKO STOUT",
+    "img": "https://i.imgur.com/LClh0rX.png",
+    "option1": "Milk Stout",
+    "alc": "ALC. 5.2%",
+    "og": "OG: 18%",
+    "ibu": "IBU:18",
+    "price": "109 UAN"
+  }
+]

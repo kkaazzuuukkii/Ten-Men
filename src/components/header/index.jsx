@@ -18,7 +18,7 @@ export default function Header() {
     <div className={style.container}>
       <div className={style.left_container}>
         <Link to={"/beer"}>ПИВО</Link>
-        <a href=''>ПРАВИЛА ГРИ</a>
+        <Link to={"/game_rule"}>ПРАВИЛА ГРИ</Link>
         <Link to={"/souvenirs"}>СУВЕНІРИ</Link>
 
         <a href=''>ОПЛАТА І ДОСТАВКА</a>

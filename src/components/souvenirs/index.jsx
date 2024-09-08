@@ -1,32 +1,10 @@
 import React from "react";
 import style from "./style.module.scss";
+import souvenir from "../../data/souvenir.json";
 
-import souvenir from "../../assets/png/souvenir.png";
-import souvenir1 from "../../assets/png/souvenir2.png";
-import souvenir2 from "../../assets/png/souvenir3.png";
-import souvenir3 from "../../assets/png/souvenir4.png";
 import buy from "../../assets/svg/card.svg";
 
 export default function Souvenirs() {
-  const souvenirs = [
-    {
-      name: "БЕЖЕВА",
-      img: souvenir,
-    },
-    {
-      name: "ФІОЛЕТОВА",
-      img: souvenir1,
-    },
-    {
-      name: "PORTER",
-      img: souvenir2,
-    },
-    {
-      name: "PINK",
-      img: souvenir3,
-    },
-  ];
-
   return (
     <div className={style.container}>
       <div className={style.h1}>
@@ -34,7 +12,7 @@ export default function Souvenirs() {
       </div>
 
       <div className={style.souvenir_list}>
-        {souvenirs.map((v, i) => (
+        {souvenir.map((v, i) => (
           <div key={i} className={style.border}>
             <div className={style.cont}>
               <a href=''>
